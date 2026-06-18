@@ -36,8 +36,9 @@ Config file of key binds to help with NavBot with Zombie Panic: Source https://g
 
 # New map process
 - Copy .cfg file to \zps\cfg
+- Add `-console` to Game startup
 - Load map
-- Load keybinds by typing `exec navbot-helper-zps.cfg`
+- Press ESC and load keybinds by typing `exec navbot-helper-zps.cfg`
 - Press "Page Up" to enable god mode
 - Press "F10" to Seed Walkable spots
 - Press "F11" to Generate Nav Mesh
@@ -51,7 +52,7 @@ Config file of key binds to help with NavBot with Zombie Panic: Source https://g
 - Press "Insert" to show spawn points and make sure they have nav mesh
 - Add ladders (to be added)
 - Look for disconnected nav mesh and join them with "F1"
-- Look for and remove nav mesh from non walkable areas (e.g tops of buildings, places you don't want the bots going)
+- Look for and remove nav mesh from non walkable areas (e.g places you don't want the bots going)
 
 # Misc useful commands
 - `sm_nav_snap_to_grid 1`
@@ -59,11 +60,6 @@ Config file of key binds to help with NavBot with Zombie Panic: Source https://g
 - `sm_navbot_debug_blind` bots can't see each other
 - `sm_nav_merge_ladders <bottom ladder ID> <top ladder ID>` merge/join ladders that are close to each other
 - `showtriggers_toggle` 
-
-# MG Nest Troubleshooting
-- developer 1
-- dod_debugmgdeploy 1
-- Place waypoint as far away from the barrier as possible while it still deploys
 
 # Fix Errors
 ## Degenerate Navigation Area
